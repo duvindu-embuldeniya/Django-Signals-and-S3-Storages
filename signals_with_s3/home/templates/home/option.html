@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+<article class="media content-section" style="display: flex; align-items: flex-start;">
+
+    <div class="media-body">
+      <div class="article-metadata">
+        <span class="mr-2"><b>Select an Option</b></span>
+
+        <div class="mt-2 mb-2">
+            <a class="btn btn-secondary btn-sm" href="{% url 'update' profile.user.username %}">Update</a>
+            <a class="btn btn-danger btn-sm" href="{% url 'delete' profile.user.username %}">Delete</a>
+        </div>
+      </div>
+    </div>
+
+  </article>
+
+
+{% endblock content %}
