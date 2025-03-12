@@ -39,4 +39,4 @@
 
 Then, the development server will be started at http://127.0.0.1:8000/
 
-## Don't forget to configure the environment variables according to your setup.
+## "If there are environment variables, make sure to adjust them according to your setup before running the program."
